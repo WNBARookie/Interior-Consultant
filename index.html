@@ -23,8 +23,72 @@
     <title>Interior Consultant</title>
   </head>
   <body>
-    <!-- <i class="fas fa-bars"></i>
-    <i class="fas fa-times"></i>
-    <i class="fas fa-long-arrow-alt-right"></i> -->
+    <div class="container page-content">
+      <!-- nav -->
+      <div class="navbar">
+        <div class="flex-nav">
+          <div class="nav-header">
+            <h3 class="logo ff-accent uppercase fw-light">This Interior</h3>
+            <button class="nav-toggle" id="navToggle">
+              <i class="fas fa-bars" id="menu"></i>
+              <i class="fas fa-times hidden" id="close"></i>
+            </button>
+          </div>
+          <nav class="nav-links fw-medium" id="nav-links">
+            <ul>
+              <li class="nav-link">
+                <a href="#" class="active fw-bold">Home</a>
+              </li>
+              <li class="nav-link"><a href="#">Collection</a></li>
+              <li class="nav-link"><a href="#">About</a></li>
+              <li class="nav-link">
+                <a href="#">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- main content -->
+      <div class="main grid">
+        <div class="info flow" style="--flow-space: 1.5rem">
+          <h1 class="ff-serif fw-medium">Modern interior</h1>
+          <p class="fw-regular description">
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </p>
+          <div class="btn fw-bold">
+            <a href="#"
+              >Read more <i class="fas fa-long-arrow-alt-right"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="showcase">
+          <img src="./photo1.png" alt="interior" />
+          <div class="card flow">
+            <div class="card--header flex">
+              <img src="./photo2.png" alt="profile-pic" />
+              <div class="info">
+                <p class="name fw-medium">Aliza Webber</p>
+                <p class="role fw-light text-gray">Interior designer</p>
+              </div>
+            </div>
+            <div class="card-body">
+              <h2 class="fw-bold ff-serif">Designed in 2020 by Aliza Webber</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="footer text-center">
+        <p class="text-gray">
+          created by <span class="fw-bold">WNBARookie</span> - devChallenges.io
+        </p>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
